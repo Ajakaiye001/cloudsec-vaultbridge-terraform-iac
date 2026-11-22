@@ -1,0 +1,6 @@
+bucket       = "REPLACE_WITH_BOOTSTRAP_BUCKET_OUTPUT"
+key          = "envs/dev/terraform.tfstate"
+region       = "eu-north-1"
+encrypt      = true
+use_lockfile = true
+profile      = "vaultbridge-lab"
